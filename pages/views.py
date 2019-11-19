@@ -7,3 +7,6 @@ def home(request):
 
 def generic(request):
     return render(request, 'generic.html', {})
+
+def elements(request):
+    return render(request, 'elements.html', {})
