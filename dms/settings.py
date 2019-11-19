@@ -25,7 +25,7 @@ SECRET_KEY = 'gkvi=a+3mbxl6jvpe2=m#kdks@6!lbjnz%!ja0qys=wfk^*56a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['darkmattersoftware.io']
+ALLOWED_HOSTS = ['darkmattersoftware.io', 'localhost']
 
 
 # Application definition
