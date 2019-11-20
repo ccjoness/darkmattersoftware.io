@@ -13,3 +13,6 @@ def elements(request):
 
 def contact(request):
     return render(request, 'contact.html', {})
+
+def learnMore(request):
+    return render(request, 'learnMore.html', {})
