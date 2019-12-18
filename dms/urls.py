@@ -18,6 +18,10 @@ from django.urls import path
 from pages import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin', admin.site.urls),
+    path('generic', views.generic, name='generic'),
+    path('elements', views.elements, name='elements'),
+    path('contact', views.contact, name='contact'),
+    path('learnMore', views.learnMore, name='learnMore'),
     path('', views.home, name='home')
 ]

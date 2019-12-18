@@ -4,6 +4,7 @@
 	Hyperspace by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
+	**--**--**
 -->
 <html>
 	<head>
@@ -50,9 +51,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project Management</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<p>Dark Matter Software provides project management for the lifecycle of your project. You have a dream, and we'll see it through from development to deployment.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="{% url 'learnMore' %}" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -62,9 +63,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Development</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<p>We use modern and scalable technologies to build the best product to suit your current and future business needs. </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="{% url 'learnMore' %}" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -74,9 +75,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Deployment</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<p> Dark Matter doesn't just build software, we support you in ensuring it works long-term. </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="{% url 'generic' %}" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -87,102 +88,49 @@
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>Dark Matter Software is dedicated to developing software that solves problems and meets your goals.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>End-to-End Expertise</h3>
+									<p>Our teams write code that turns your ideas into tangible results. </p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Security Always</h3>
+									<p>Our products are stable and secure for your peace of mind.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Products that Work</h3>
+									<p> Results that integrate with business systems, improve efficiency, and scale for future needs</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>User Experience</h3>
+									<p>Our software delivers exceptional user experiences that help your business grow.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Seamless Integration</h3>
+									<p>Providing solutions that integrate with the workflows and technologies you need.</p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Your Digital Investment</h3>
+									<p>When you choose Dark Matter Software, your investment goes farther and lasts longer.</p>
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
+								<li><a href="{% url 'learnMore' %}" class="button">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>2828 SW Corbett Ave #208<br />
-											Oregon, OR 97201<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">sales@darkmattersoftware.io</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(503) 277-9710</span>
-										</li>
-<!--										<li>-->
-<!--											<h3>Social</h3>-->
-<!--											<ul class="icons">-->
-<!--												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-<!--												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
-<!--												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>-->
-<!--												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
-<!--												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
-<!--											</ul>-->
-<!--										</li>-->
-									</ul>
-								</section>
-							</div>
-						</div>
+							{% include 'partials/contactForm.html' %}
+
 					</section>
 
 			</div>
